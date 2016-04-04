@@ -1,0 +1,34 @@
+header .bg-gris {
+  background-color: #EDEDED; }
+header .menu1 {
+  padding-top: 1%;
+  padding-bottom: 1%; }
+  header .menu1 ul {
+    list-style: none;
+    padding: 0; }
+    header .menu1 ul li {
+      text-decoration: none;
+      display: inline;
+      font-size: 12px;
+      font-weight: bold;
+      padding-right: 3%; }
+      header .menu1 ul li a {
+        color: gray; }
+header .menu2 {
+  padding-top: 1%; }
+  header .menu2 button {
+    font-size: 12px; }
+  header .menu2 i {
+    padding: 2%; }
+  header .menu2 .facebook {
+    color: #3b5998; }
+  header .menu2 .twitter {
+    color: #55acee; }
+  header .menu2 .google-plus {
+    color: #dd4b39; }
+  header .menu2 .envelope {
+    color: #E5C91F; }
+  header .menu2 .rss {
+    color: #F39A19; }
+
+/*# sourceMappingURL=main.css.map */

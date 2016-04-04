@@ -1,0 +1,47 @@
+header{
+	.bg-gris{
+		background-color: #EDEDED;
+	}
+	.menu1{
+		padding-top: 1%;
+		padding-bottom: 1%;
+		ul{
+			list-style: none;
+			padding: 0;
+			li{
+				text-decoration: none;
+				display: inline;
+				font-size: 12px;
+				font-weight: bold;
+				padding-right:3%;
+				a{
+					color: gray;
+				}
+			}
+		}
+	}
+	.menu2{
+		padding-top: 1%;
+		button{
+			font-size: 12px;
+		}
+		i{
+			padding: 2%;
+		}
+		.facebook{
+			color: #3b5998;
+		}
+		.twitter{
+			color:  #55acee;
+		}
+		.google-plus{
+			color: #dd4b39;
+		}
+		.envelope{
+			color: #E5C91F;
+		}
+		.rss{
+			color: #F39A19;
+		}
+	}
+}
