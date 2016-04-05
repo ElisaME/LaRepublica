@@ -1,5 +1,8 @@
+/*-----------------------------------------HEADER*/
 header .bg-gris {
   background-color: #EDEDED; }
+header .banner-top {
+  width: 100%; }
 header .menu1 {
   padding-top: 1%;
   padding-bottom: 1%; }
@@ -30,5 +33,235 @@ header .menu2 {
     color: #E5C91F; }
   header .menu2 .rss {
     color: #F39A19; }
+header .logo {
+  padding-top: 2%;
+  padding-bottom: 2%; }
+header .menu-banner {
+  margin-left: 230px; }
+header .navbar-inverse {
+  background-color: #BF1729 !important;
+  border: none !important;
+  font-size: 12px; }
+  header .navbar-inverse li > a {
+    color: #FFF !important; }
+  header .navbar-inverse .navbar-nav > .active > a {
+    background-color: #BF1729 !important; }
+  header .navbar-inverse .navbar-nav > ul > li {
+    padding-left: 2%; }
+header .banner-izq, header .banner-der {
+  position: absolute;
+  width: 100px; }
+header .banner-izq {
+  left: 0; }
+header .banner-der {
+  right: 0; }
+header .menu-gris .bg-negro {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  background-color: black !important; }
+  header .menu-gris .bg-negro a {
+    color: #fff !important; }
+header .menu-gris li {
+  background-color: #EDEDED !important; }
+header .menu-gris a {
+  color: black !important;
+  font-size: 12px;
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+  header .menu-gris a:hover {
+    background-color: transparent !important; }
+header .menu-gris i, header .menu-gris img {
+  padding: 0 15px; }
+header .banner-header {
+  width: 100%;
+  margin-top: 10px; }
+
+/*------------------------------------------------------------FOOTER*/
+#footer {
+  padding: 2% 0 0 0;
+  background-color: #EDEDED; }
+  #footer .col-izq {
+    border-right: 3px groove white; }
+  #footer ul > li {
+    list-style: none;
+    font-size: 11px; }
+  #footer .datos {
+    margin-top: 30%; }
+    #footer .datos p {
+      padding: 0;
+      margin-bottom: 0; }
+  #footer .breadcrumb {
+    border-top: 3px groove white;
+    margin-top: 2%;
+    background-color: #EDEDED !important; }
+
+/* ---------------- CONTACTO / RUTH-----------------------*/
+input, textarea {
+  background-color: #E8E8E8 !important; }
+
+.black {
+  background-color: black !important;
+  color: white !important; }
+
+.form-horizontal {
+  padding: 0 15%; }
+
+/*INDEX*/
+/*Global*/
+a {
+  text-decoration: none; }
+
+h1 {
+  font-weight: bolder !important; }
+
+.w100 {
+  width: 100%; }
+
+.pd2 {
+  padding: 2%; }
+
+.pt5 {
+  padding-top: 5%; }
+
+.pt10 {
+  padding-top: 40%; }
+
+/*Gradient*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,000000+98&0+25,1+82 */
+.oscuro {
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.1) 17%, #3d3d3d 80%, black 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.1) 17%, #3d3d3d 80%, black 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.1) 17%, #3d3d3d 80%, black 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+  height: auto;
+  width: 100%; }
+  .oscuro h3 {
+    color: white;
+    text-shadow: 3% 3% 5% #f00, 6% 6% 5% #0f0, 9% 9% 5% #00f; }
+
+/*principal news*/
+.txt-red {
+  color: #B20000; }
+
+#img-grid-secundario {
+  background-image: url("../image/img_grid_secundario.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat; }
+
+/*Slide*/
+.slider-nav div {
+  text-align: center;
+  display: block; }
+
+.slider-for div img,
+.slider-nav div img {
+  width: 100%;
+  float: left; }
+
+.slider-for div h3,
+.slider-nav div h4 {
+  float: left;
+  width: 100%; }
+
+.slick-dots {
+  bottom: -50px !important; }
+
+.slick-dots li button:before {
+  font-size: 17px !important; }
+
+.slick-slider {
+  margin-bottom: 0px !important; }
+
+.slick-prev {
+  left: -30px !important; }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000 !important; }
+
+/*Aside Index*/
+.textura {
+  background-image: url("../image/trama_square.jpg");
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 100px; }
+
+/* ---------------- CONTACTO -----------------------*/
+input, textarea {
+  background-color: #E8E8E8 !important; }
+
+.black {
+  background-color: black;
+  color: white; }
+
+.post-blog {
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.flechas {
+  display: inline; }
+
+.box {
+  text-align: center;
+  padding: 2%;
+  border: 1px solid gray;
+  margin: 2%; }
+  .box .datos {
+    padding: 15%; }
+  .box .titulo {
+    font-weight: bold;
+    font-size: 16px; }
+  .box .gris {
+    background-color: #C7C7C7;
+    padding: 4% 2%; }
+    .box .gris img {
+      border: 2px solid white; }
+    .box .gris .desc2 p {
+      font-size: 18px;
+      margin-bottom: 0; }
+    .box .gris .text-gris {
+      color: gray;
+      font-size: 20px; }
+
+.caja {
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  padding: 1%; }
+  .caja p, .caja h4 {
+    text-align: center; }
+
+h4 {
+  font-weight: bold !important; }
+
+.gray {
+  width: 98%;
+  height: 85px;
+  background-color: #f2f2f2;
+  margin-left: 1%;
+  margin-bottom: 1%; }
+
+.margen {
+  padding: 15%; }
+
+.contorno {
+  margin: 3% -3%;
+  border: 0.3em solid white;
+  box-shadow: 1px 3px 2px #888888; }
+
+.azul {
+  color: #4C65A9;
+  font-weight: bold;
+  margin-top: -2%; }
+
+.negro {
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 5%; }
 
 /*# sourceMappingURL=main.css.map */

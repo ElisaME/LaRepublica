@@ -1,6 +1,10 @@
+/*-----------------------------------------HEADER*/
 header{
 	.bg-gris{
 		background-color: #EDEDED;
+	}
+	.banner-top{
+		width: 100%;
 	}
 	.menu1{
 		padding-top: 1%;
@@ -43,5 +47,65 @@ header{
 		.rss{
 			color: #F39A19;
 		}
+	}
+	.logo{
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+	.menu-banner{
+		margin-left: 230px;
+	}
+	.navbar-inverse{
+		background-color:#BF1729 !important; 
+		border:none !important;
+		font-size: 12px;
+		li>a{
+			color: #FFF !important;
+		}
+		.navbar-nav>.active>a{
+			background-color:#BF1729 !important; 
+		}
+		.navbar-nav>ul>li{
+			padding-left: 2%;
+		}
+	}
+	.banner-izq, .banner-der{
+		position: absolute;
+		width: 100px;
+	}
+	.banner-izq{
+		left: 0;
+	}
+	.banner-der{
+		right: 0;
+	}
+	.menu-gris{
+		.bg-negro{
+			padding-left: 10px!important;
+			padding-right: 10px!important;
+			background-color: black !important;
+			a{
+				color: #fff !important;
+			}
+		}
+		li{
+			background-color: #EDEDED !important;
+		}
+		a{
+			color: black !important;
+			font-size: 12px;
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			&:hover{
+				background-color:transparent !important;
+			}
+		}
+		i, img{
+			padding: 0 15px;
+		}
+	}
+	.banner-header{
+		width:100%;
+		margin-top: 10px;
 	}
 }

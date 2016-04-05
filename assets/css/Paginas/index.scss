@@ -1,0 +1,91 @@
+//Variables
+$red:#B20000;
+
+/*INDEX*/
+	/*Global*/
+a{
+	text-decoration: none;
+}
+h1{
+	font-weight: bolder !important;
+}
+.w100{
+	width: 100%;
+}
+.pd2{
+	padding: 2%;
+}
+.pt5{
+	padding-top: 5%;
+}
+.pt10{
+	padding-top: 40%;
+}
+
+/*Gradient*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,000000+98&0+25,1+82 */
+.oscuro{
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 10%, rgba(255,255,255,0.1) 17%, rgba(61,61,61,1) 80%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 10%,rgba(255,255,255,0.1) 17%,rgba(61,61,61,1) 80%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 10%,rgba(255,255,255,0.1) 17%,rgba(61,61,61,1) 80%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+height: auto;
+width: 100%;
+h3{
+	color: white;
+	text-shadow: 3% 3% 5% #f00,
+               6% 6% 5% #0f0,
+               9% 9% 5% #00f;
+	}
+}
+	/*principal news*/
+
+.txt-red{
+	color: $red;
+}
+#img-grid-secundario{
+	background-image: url("../image/img_grid_secundario.jpg");
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+	/*Slide*/
+
+
+.slider-nav div{ text-align: center; display: block}
+ 
+.slider-for div img,
+.slider-nav div img{width:100%; float:left;}
+ 
+.slider-for div h3,
+.slider-nav div h4{float:left; width: 100%}
+ 
+.slick-dots{bottom:-50px!important;}
+.slick-dots li button:before{font-size: 17px!important;}
+ 
+.slick-slider {
+    margin-bottom: 0px!important;
+}
+.slick-prev{left: -30px!important}
+ 
+.slick-prev:before,
+.slick-next:before{
+   color: #000!important;
+}
+
+	/*Aside Index*/
+.textura{
+	background-image: url("../image/trama_square.jpg");
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 100px;
+}
+
+/* ---------------- CONTACTO -----------------------*/
+input, textarea{
+	background-color: #E8E8E8 !important;
+}
+.black{
+	background-color: black;
+	color: white;
+}

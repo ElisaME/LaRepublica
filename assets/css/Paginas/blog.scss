@@ -1,0 +1,36 @@
+.post-blog{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.flechas{
+    display: inline;
+}
+.box{
+    text-align: center;
+    padding: 2%;
+    border:1px solid gray;
+    margin: 2%;
+    .datos{
+        padding: 15%;
+    }
+    .titulo{
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .gris{
+        background-color: #C7C7C7;
+        padding: 4% 2%;
+        img{
+            border:2px solid white;
+        }
+        .desc2 p{
+            font-size: 18px;
+            margin-bottom:0; 
+        }
+        .text-gris{
+            color: gray;
+            font-size: 20px;
+        }
+    }
+}
