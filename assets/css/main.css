@@ -154,36 +154,27 @@ h1 {
   background-repeat: no-repeat; }
 
 /*Slide*/
-.slider-nav div {
-  text-align: center;
-  display: block; }
-
+/*
+.slider-nav div{ text-align: center; display: block}
+ 
 .slider-for div img,
-.slider-nav div img {
-  width: 100%;
-  float: left; }
-
+.slider-nav div img{width:100%; float:left;}
+ 
 .slider-for div h3,
-.slider-nav div h4 {
-  float: left;
-  width: 100%; }
-
-.slick-dots {
-  bottom: -50px !important; }
-
-.slick-dots li button:before {
-  font-size: 17px !important; }
-
+.slider-nav div h4{float:left; width: 100%}
+ 
+.slick-dots{bottom:-50px!important;}
+.slick-dots li button:before{font-size: 17px!important;}
+ 
 .slick-slider {
-  margin-bottom: 0px !important; }
-
-.slick-prev {
-  left: -30px !important; }
-
+    margin-bottom: 0px!important;
+}
+.slick-prev{left: -30px!important}
+ 
 .slick-prev:before,
-.slick-next:before {
-  color: #000 !important; }
-
+.slick-next:before{
+   color: #000!important;
+}*/
 /*Aside Index*/
 .textura {
   background-image: url("../image/trama_square.jpg");
@@ -191,13 +182,14 @@ h1 {
   width: 100%;
   height: 100px; }
 
-/* ---------------- CONTACTO -----------------------*/
-input, textarea {
-  background-color: #E8E8E8 !important; }
+/*SLIDE ELISA*/
+#myCarousel img {
+  width: 100%; }
+#myCarousel .carousel-indicators .active {
+  background-color: red; }
 
-.black {
-  background-color: black;
-  color: white; }
+h1, .flechas {
+  margin-left: 2% !important; }
 
 .post-blog {
   padding-left: 10%;
@@ -209,10 +201,12 @@ input, textarea {
 .box {
   text-align: center;
   padding: 2%;
-  border: 1px solid gray;
+  border: 2px solid #C7C7C7;
   margin: 2%; }
   .box .datos {
     padding: 15%; }
+    .box .datos a {
+      color: black; }
   .box .titulo {
     font-weight: bold;
     font-size: 16px; }
@@ -224,9 +218,12 @@ input, textarea {
     .box .gris .desc2 p {
       font-size: 18px;
       margin-bottom: 0; }
-    .box .gris .text-gris {
+    .box .gris .desc2 .text-gris {
       color: gray;
       font-size: 20px; }
+
+body {
+  color: black !important; }
 
 .caja {
   background-color: #ffffff;
@@ -236,7 +233,8 @@ input, textarea {
     text-align: center; }
 
 h4 {
-  font-weight: bold !important; }
+  font-weight: bold !important;
+  font-family: 'Oswald', sans-serif !important; }
 
 .gray {
   width: 98%;
@@ -263,5 +261,14 @@ h4 {
   font-weight: bold;
   font-size: 10px;
   margin-top: 5%; }
+
+h5 {
+  font-family: 'Oswald', sans-serif !important; }
+
+.espacio {
+  margin-left: 3%; }
+
+.red {
+  background-color: red !important; }
 
 /*# sourceMappingURL=main.css.map */
